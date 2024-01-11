@@ -1,3 +1,97 @@
+
+body {
+    background-color: #FFD744;
+    margin: 30px; 
+}
+.grabberLine {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px
+}
+
 h1 {
+    font-family: Verdana;
     font-weight: bold;
 }
+h3 {
+    font-family: Verdana;
+}
+
+h4 {
+    font-family: Verdana;
+}
+h5 {
+    font-family: Verdana;
+}
+#container {
+    display: grid;
+    height: auto;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 30px;
+    grid-template-areas: 
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8"
+        "card9 card10 card11 card12"
+        "card13 card14 card15 card16";
+    font-family: Verdana;
+    font-size: 14;
+    margin: 10px;
+    }
+        
+.card1 {
+    background: #FF8A44;
+    border-radius: 30px;
+  
+    } 
+.card2 {
+    background: #FF8A44;
+    border-radius: 30px;
+    } 
+.card3 {
+    background: #FF8A44;
+    border-radius: 30px;
+    } 
+.card4 {
+    background: #FF8A44;
+    border-radius: 30px;
+    } 
+.card5 {
+    background: #FF8A44;
+    border-radius: 30px;
+} 
+.card6 {
+    background: #FF8A44;
+    border-radius: 30px;
+} 
+.card7 {
+    background: #FF8A44;
+    border-radius: 30px;
+} 
+.card8 {
+    background: #FF8A44;
+    border-radius: 30px;
+} 
+.card9 {
+    background: #FF8A44;
+    border-radius: 30px;
+} 
+.card10 {
+    background: #FF8A44;
+    border-radius: 30px;
+} 
+.card11 {
+    background: #FF8A44;
+    border-radius: 30px;
+}
+.card12 {
+    background: #FF8A44;
+    border-radius: 30px;
+    }
+button {
+    style=margin:10px
+    border-radius:25px
+    
+}    
+/* #10EE67, #FECB00, # F5B842 #dddfd4, #fae596, #3fb0ac, #173e43 */
